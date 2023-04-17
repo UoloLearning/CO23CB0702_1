@@ -1,5 +1,9 @@
+num = int(input("Enter a number: "))
+sum = 0
 i = 1
-while i <= 10:
-    result = 3 * i
-    print(result)
+
+while i <= num:
+    sum += i
     i += 1
+
+print("The sum of numbers from 1 to", num, "is", sum)
